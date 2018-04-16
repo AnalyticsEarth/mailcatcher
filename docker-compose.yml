@@ -1,0 +1,7 @@
+version: '3'
+services:
+  mailcatcher:
+    image: analyticsearth/mailcatcher
+    ports:
+      - "1080:1080/tcp"
+      - "1025:1025/tcp"
